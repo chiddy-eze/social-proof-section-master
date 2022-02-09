@@ -4,8 +4,9 @@ body {
     margin: 0px;
     font-family: Spartan;
     Font-size: 15px;
-    background-image: url(images/bg-pattern-top-desktop.svg), /* url(images/bg-pattern-bottom-desktop.svg); */
-    background-repeat: no-repeat;
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    /* background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg); */
+    background-repeat: no-repeat, no-repeat;
     background-size: 40%, 110%;
     /* background-position: 5%, 95%; */
 }
