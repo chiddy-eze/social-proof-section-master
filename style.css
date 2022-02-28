@@ -155,19 +155,14 @@ h6 {
     .intro {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
+
         margin: 50px 0px 0px 80px; 
     }
     .left{
-=======
         padding: 0px;
         margin: 50px 0px 0px 80px;
     }
-    .left {
-        padding: 0px;
->>>>>>> d275a0f30b10146dd2c616fee140e2a016b91bff
-        margin: 0px 60px 0px 0px;
-    }
+    
     h1 {
         color: hsl(300, 43%, 22%);
         width: 98%;
