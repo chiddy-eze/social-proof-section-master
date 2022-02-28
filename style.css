@@ -127,7 +127,7 @@ h6{
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 780px) {
+@media (max-width: 600px) {
     body {
         background-image: url(images/bg-pattern-top-mobile.svg),
             url(images/bg-pattern-bottom-mobile.svg);
@@ -139,11 +139,9 @@ h6{
     .intro {
         display: flex;
         flex-direction: column;
-        padding: 0px; 
         margin: 50px 0px 0px 80px; 
     }
     .left{
-        padding: 0px;
         margin: 0px 60px 0px 0px;
     }
     h1 {
@@ -195,9 +193,8 @@ h6{
     .cardsContainer {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 20px 0px 60px 65px;
+        position: static;
+        margin: 20px 0px 40px 64px;
     }
     .attribution {
         font-size: 11px;
@@ -208,4 +205,5 @@ h6{
     .attribution a {
         color: hsl(228, 45%, 44%);
     }
+    
 }
