@@ -213,8 +213,8 @@ h6 {
     .cardsContainer {
         display: flex;
         flex-direction: column;
-        position: static;
-        margin: 20px 0px 40px 64px;
+        /* position: static; */
+        margin: 20px 0px 50px 64px;
     }
     .attribution {
         font-size: 11px;
